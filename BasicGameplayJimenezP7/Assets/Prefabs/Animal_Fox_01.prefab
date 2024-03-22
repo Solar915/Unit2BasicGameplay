@@ -351,6 +351,9 @@ GameObject:
   - component: {fileID: 8432968547589968291}
   - component: {fileID: 443080826543107558}
   - component: {fileID: 4778132907096911411}
+  - component: {fileID: 2321266783495004369}
+  - component: {fileID: 1490820681635411897}
+  - component: {fileID: 1348863797459886549}
   m_Layer: 0
   m_Name: Animal_Fox_01
   m_TagString: Untagged
@@ -419,6 +422,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!65 &2321266783495004369
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3512240471703813533}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09807706, y: 0.47135267, z: 0.3475506}
+  m_Center: {x: -0.003884387, y: 0.016354276, z: 0.023429006}
+--- !u!114 &1490820681635411897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3512240471703813533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6685f869671d6cd448003d68a1837f9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1348863797459886549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3512240471703813533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 366219409f6b51b4096c3422f033a246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3553911901379830393
 GameObject:
   m_ObjectHideFlags: 0
