@@ -29,10 +29,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnRandomAnimal()
     {
-        int animalIndex = Random.Range(0, animalPrefabs.Length);
-        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, 20), 0, spawnPosZ);
-
-        Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
+       
     }
 
     void SpawnLeftAnimal()
